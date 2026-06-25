@@ -39,7 +39,7 @@ public class Human {
     //
 
 
-    public void introduction(){
+    public void introduce(){
         System.out.println("I'm "+name+ ", I'm "+age+" years old");
     }
 

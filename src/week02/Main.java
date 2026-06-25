@@ -23,8 +23,20 @@ public class Main {
         Human human3 = new Human("Jack", 18);
         Human human4 = new Human("Jess",19);
 
-        human2.introduction();
-        human1.introduction();
-        human1.speak("Help");
+        human2.introduce();
+        human1.introduce();
+        human1.speak("Help\n");
+
+
+        Animal animal1 = new Animal();
+        animal1.setSpecies("eagle");
+        animal1.setFood("rabbit");
+        animal1.setPredator("nothing");
+        animal1.setAge(5);
+
+        Animal animal2 = new Animal("rabbit","grass","eagle",2);
+
+        animal2.introduce();
+
     }
 }
